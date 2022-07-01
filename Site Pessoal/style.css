@@ -1,0 +1,109 @@
+body{
+    background-color:orange;
+    font-family: Verdana;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: saddlebrown;
+    height: 140px;
+    justify-content: space-around;
+}
+
+.menu_cabeçalho{
+    width: 100%;
+}
+
+.photo{
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: 20px ;
+}
+
+
+#title{
+    color: black;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.list_container{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 12%;
+}
+
+.list_container li{
+    margin: 30px;
+}
+
+#subtitle{
+    color: black;
+    padding-left: 40px;
+}
+
+.post_title{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.post{
+    background-color: #363636;
+    padding: 15px;
+    border: 3px solid #000;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+a{
+    font-style: italic;
+    text-decoration: underline;
+    color: blue;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+footer{
+    padding-left: 40px;
+}
+
+#contacts{
+    margin: 0;
+}
+
+.contacts_list{
+    margin: 0;
+    padding-left: 15px;
+}
+
+.contact_mail{
+    list-style-type: "\1F4E8";
+    margin-top: 5px;
+}
+
+.contact_whatsapp{
+    list-style-type:"\1F4F2" ;
+    margin-top: 10px;
+}
+
+.contact_github{
+    list-style-type: "\1F4BB";
+    margin-top: 10px;
+}
